@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// 제어문(조건문) : IF - ELSE 문을 사용할 수 있다.
+	// 제어문(조건문) : if - else 문을 사용할 수 있다.
 	var a int = 50
 	b := 70
 
