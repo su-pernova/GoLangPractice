@@ -10,6 +10,7 @@ func main() {
 		x, y int16 = 50, 90
 		i, k       = "Data", 7776
 	)
+
 	fmt.Println("a, b, c, d, e : ", a, b, c, d, e)
 	fmt.Println("x, y, i, k : ", x, y, i, k)
 }
