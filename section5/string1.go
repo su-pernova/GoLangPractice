@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unicode/utf8"
+)
 
 func main() {
 	// 문자열 데이터 타입을 사용할 수 있다.
@@ -24,5 +27,12 @@ func main() {
 	fmt.Println(str4)
 	fmt.Println(str5)
 
-	// 문자열의
+	// 문자열의 크기(byte)를 확인할 수 있다. (물리적 길이 아님!)
+	fmt.Println("len(str3) : ", len(str3))
+	fmt.Println("len(str4) : ", len(str4))
+
+	// 물리적 길이는 ~를 활용하여 구할 수 있다.
+	fmt.Println("str3 의 길이 : ", utf8.RuneCountInString(str3))
+	fmt.Println("str4 의 길이 : ", utf8.RuneCountInString(str4))
+	fmt.Println("str4 의 길이 : ", len([]rune(str4))) // len 을 사용해서 길제 길이를
 }
