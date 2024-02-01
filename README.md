@@ -1,5 +1,5 @@
 # goLangPractice
-Go Programming Language Practice Repository
+Go Programming Language Practice
 
 ### Section 1
 ### Section 2
